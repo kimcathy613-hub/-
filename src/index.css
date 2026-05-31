@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-primary: #a63b00;
+  --color-primary-container: #ff5f00;
+  --color-outline: #8f7065;
+  --color-on-surface: #1a1c1c;
+  --color-secondary: #5f5e5e;
+  --color-outline-variant: #e4bfb1;
+}
+
+/* Custom Brutalist Shadows for Textbook Presentation Aesthetics */
+.brutalist-shadow {
+  box-shadow: 4px 4px 0px 0px #1a1c1c;
+}
+
+.brutalist-shadow-orange {
+  box-shadow: 4px 4px 0px 0px #a63b00;
+}
+
+.brutalist-shadow-light {
+  box-shadow: 2px 2px 0px 0px #1a1c1c;
+}
+
+.brutalist-shadow-orange-light {
+  box-shadow: 2px 2px 0px 0px #a63b00;
+}
+
+/* Scrollbar customizations */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #a63b00;
+  border-radius: 9999px;
+}
+
+/* Animate Pulse customization */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+

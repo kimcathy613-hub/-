@@ -1,0 +1,6 @@
+{
+  "name": "高中政治必修二：市场调节互动课堂",
+  "description": "基于必修二高中政治经典课程《市场调节》构建的高清交互微型网课，配备模拟仿真博弈、多维高考小论文评测以及AI宏观价格危机干预沙盘。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
